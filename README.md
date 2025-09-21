@@ -35,7 +35,7 @@ sudo pacman -S p7zip python-pip python-wxpython4
 Download the binary from https://github.com/elia83333/WoeUSB-ng-BINARY/releases/tag/binary
 
 ```shell
-wget https://github.com/elia83333/WoeUSB-ng-BINARY/releases/tag/binary](https://github.com/elia83333/WoeUSB-ng-BINARY/raw/refs/heads/master/WoeUSB-Binary -O WoeUSB-Binary
+wget https://github.com/elia83333/WoeUSB-ng-BINARY/raw/refs/heads/master/WoeUSB-Binary -O WoeUSB-Binary
 ```
 
 Run it
