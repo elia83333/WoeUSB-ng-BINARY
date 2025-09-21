@@ -27,6 +27,10 @@ sudo apt install git p7zip-full python3-pip python3-wxgtk4.0 grub2-common grub-p
 ```shell
 sudo dnf install git p7zip p7zip-plugins python3-pip python3-wxpython4
 ```
+#### Arch Linux
+```shell
+sudo pacman -S p7zip python-pip python-wxpython4
+```
 
 Download the binary from https://github.com/elia83333/WoeUSB-ng-BINARY/releases/tag/binary
 
