@@ -15,7 +15,30 @@ Currently this project doesn't support woeusb-GUI, PYInstaller just doesnt work 
 
 # Installation
 
-Download the binary from https://github.com/elia83333/WoeUSB-ng-BINARY/releases/tag/binary and run it.
+Download the dependencies
+
+#### Ubuntu
+
+```shell
+sudo apt install git p7zip-full python3-pip python3-wxgtk4.0 grub2-common grub-pc-bin parted dosfstools ntfs-3g
+```
+
+#### Fedora (tested on: Fedora Workstation 33)
+```shell
+sudo dnf install git p7zip p7zip-plugins python3-pip python3-wxpython4
+```
+
+Download the binary from https://github.com/elia83333/WoeUSB-ng-BINARY/releases/tag/binary
+
+```shell
+wget https://github.com/elia83333/WoeUSB-ng-BINARY/releases/tag/binary
+```
+
+Run it
+
+```shell
+sudo ./WoeUSB-Binary
+```
 
 # How do i know it's safe?
 
